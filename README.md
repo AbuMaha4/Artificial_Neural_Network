@@ -27,7 +27,6 @@ export HDF5_DIR=/opt/homebrew/Cellar/hdf5/1.12.2_2
 pip install -U pip
 pip install --no-binary=h5py h5py
 pip install -r requirements.txt
-```
 
 pyenv local 3.9.8
 python -m venv .venv
